@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.onlinecourses.model.myModuleTest" tests="23" skipped="0" failures="2" errors="0" timestamp="2025-11-29T19:15:09.456Z" hostname="DIANACOMP" time="0.159">
+  <properties/>
+  <testcase name="[1] Introduction, Basic concepts, INT-BAS" classname="ua.onlinecourses.model.myModuleTest" time="0.005"/>
+  <testcase name="[2] Advanced Math, Complex topics, ADV-COM" classname="ua.onlinecourses.model.myModuleTest" time="0.003"/>
+  <testcase name="[3] Java Basics, Learning, JAV-LEA" classname="ua.onlinecourses.model.myModuleTest" time="0.005"/>
+  <testcase name="[4] Python, Programming, PYT-PRO" classname="ua.onlinecourses.model.myModuleTest" time="0.003"/>
+  <testcase name="[1] Introduction,Basic concepts&#10;Advanced,Complex topics, 2, Introduction, Basic concepts" classname="ua.onlinecourses.model.myModuleTest" time="0.009"/>
+  <testcase name="[2] Java Basics,Learn Java programming, 1, Java Basics, Learn Java programming" classname="ua.onlinecourses.model.myModuleTest" time="0.009"/>
+  <testcase name="[3] # Comment&#10;Algorithms,Study algorithms&#10;&#10;Databases,Database design, 2, Algorithms, Study algorithms" classname="ua.onlinecourses.model.myModuleTest" time="0.01"/>
+  <testcase name="[4] , 0, null, null" classname="ua.onlinecourses.model.myModuleTest" time="0.006"/>
+  <testcase name="testGetFullNameThrowsExceptionForShortTitle()" classname="ua.onlinecourses.model.myModuleTest" time="0.003">
+    <failure message="ua.onlinecourses.exception.InvalidDataException: title: invalid value 'AB' — must be between 3 and 30 characters" type="ua.onlinecourses.exception.InvalidDataException">ua.onlinecourses.exception.InvalidDataException: title: invalid value 'AB' — must be between 3 and 30 characters
+	at app//ua.onlinecourses.util.ValidationUtils.validate(ValidationUtils.java:36)
+	at app//ua.onlinecourses.model.myModule.&lt;init&gt;(myModule.java:40)
+	at app//ua.onlinecourses.model.myModuleTest.testGetFullNameThrowsExceptionForShortTitle(myModuleTest.java:93)
+	at java.base@24/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="testGetFullNameThrowsExceptionForShortContent()" classname="ua.onlinecourses.model.myModuleTest" time="0.005">
+    <failure message="ua.onlinecourses.exception.InvalidDataException: content: invalid value 'AB' — must be between 3 and 2000 characters" type="ua.onlinecourses.exception.InvalidDataException">ua.onlinecourses.exception.InvalidDataException: content: invalid value 'AB' — must be between 3 and 2000 characters
+	at app//ua.onlinecourses.util.ValidationUtils.validate(ValidationUtils.java:36)
+	at app//ua.onlinecourses.model.myModule.&lt;init&gt;(myModule.java:40)
+	at app//ua.onlinecourses.model.myModuleTest.testGetFullNameThrowsExceptionForShortContent(myModuleTest.java:102)
+	at java.base@24/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+</failure>
+  </testcase>
+  <testcase name="[1] " classname="ua.onlinecourses.model.myModuleTest" time="0.005"/>
+  <testcase name="[2]    " classname="ua.onlinecourses.model.myModuleTest" time="0.005"/>
+  <testcase name="[1] Introduction, Basic concepts and fundamentals" classname="ua.onlinecourses.model.myModuleTest" time="0.008"/>
+  <testcase name="[2] Advanced Topics, Deep dive into complex subjects" classname="ua.onlinecourses.model.myModuleTest" time="0.003"/>
+  <testcase name="[3] Java Basics, Learn Java programming" classname="ua.onlinecourses.model.myModuleTest" time="0.003"/>
+  <testcase name="testInvalidContentTooLong()" classname="ua.onlinecourses.model.myModuleTest" time="0.004"/>
+  <testcase name="testFileNotFound()" classname="ua.onlinecourses.model.myModuleTest" time="0.004"/>
+  <testcase name="[1] " classname="ua.onlinecourses.model.myModuleTest" time="0.004"/>
+  <testcase name="[2]    " classname="ua.onlinecourses.model.myModuleTest" time="0.004"/>
+  <testcase name="[3] Economics for computer science basic level introdaction for statistcs ans risks" classname="ua.onlinecourses.model.myModuleTest" time="0.003"/>
+  <testcase name="[1] Introduction,Basic concepts&#10;Invalid Line&#10;Advanced,Complex topics, 2" classname="ua.onlinecourses.model.myModuleTest" time="0.01"/>
+  <testcase name="[2] Ukrainion History for computer science learners,Content&#10;Advanced,Complex topics, 1" classname="ua.onlinecourses.model.myModuleTest" time="0.011"/>
+  <testcase name="[3] Title,&#10;Advanced,Complex topics, 1" classname="ua.onlinecourses.model.myModuleTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced Math, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced Math, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Java Basics, Learning
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Java Basics, Learning
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Python, Programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Python, Programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit5798842225535416052\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 1: INT-BAS
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 2: ADV-COM
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 2 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit10968813048644343934\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Java Basics, Learn Java programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Java Basics, Learn Java programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 1: JAV-LEA
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 1 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit650418871527848410\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Algorithms, Study algorithms
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Algorithms, Study algorithms
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 2: ALG-STU
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Databases, Database design
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Databases, Database design
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 4: DAT-DAT
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 2 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit1338072313934876430\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 0 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: AB, Content description
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value 'AB' — must be between 3 and 30 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Title, AB
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: content: invalid value 'AB' — must be between 3 and 2000 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Economics, 
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: content: invalid value '' — must be between 3 and 2000 characters; content: invalid value '' — cannot be empty
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Economics,    
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: content: invalid value '   ' — cannot be empty
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Introduction, Basic concepts and fundamentals
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Introduction, Basic concepts and fundamentals
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced Topics, Deep dive into complex subjects
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced Topics, Deep dive into complex subjects
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Java Basics, Learn Java programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Java Basics, Learn Java programming
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Phisics, aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: content: invalid value 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' — must be between 3 and 2000 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: , Valid content description
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 30 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module:    , Valid content description
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value '   ' — cannot be empty
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Economics for computer science basic level introdaction for statistcs ans risks, Valid content description
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value 'Economics for computer science basic level introdaction for statistcs ans risks' — must be between 3 and 30 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit1119276933693171588\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Introduction, Basic concepts
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 1: INT-BAS
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+WARNING: Failed to parse line 2: Line 2: Expected format 'title, content', got: Invalid Line
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 3: ADV-COM
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 2 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit14179723696826853399\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Ukrainion History for computer science learners, Content
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value 'Ukrainion History for computer science learners' — must be between 3 and 30 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+WARNING: Failed to parse line 1: Line 1: title: invalid value 'Ukrainion History for computer science learners' — must be between 3 and 30 characters
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 2: ADV-COM
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 1 modules from file
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Starting to parse modules from file: C:\Users\dinag\AppData\Local\Temp\junit5744770562860435863\modules.csv
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+WARNING: Failed to parse line 1: Line 1: Expected format 'title, content', got: Title,
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Attempting to create Module: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Attempting to validate object: myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+INFO: Validation successful for myModule
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.myModule <init>
+INFO: Module created successfully: Advanced, Complex topics
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Parsed module from line 2: ADV-COM
+нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.ModuleFileParser parseFromCSV
+INFO: Successfully parsed 1 modules from file
+]]></system-err>
+</testsuite>
