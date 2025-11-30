@@ -75,6 +75,7 @@ class ParallelLoadingTest {
                             Student student = new Student(firstName, lastName, email, LocalDate.of(2023, 1, 1));
                             studentRepo.add(student);
                         } catch (Exception e) {
+                            // Expected: validation may fail for some test data
                         }
                     }
                 } finally {
@@ -126,6 +127,7 @@ class ParallelLoadingTest {
                             );
                             studentRepo.add(student);
                         } catch (Exception e) {
+                            // Expected: validation may fail for some test data
                         }
                     }
                 } finally {
@@ -152,6 +154,7 @@ class ParallelLoadingTest {
                 );
                 courseRepo.add(course);
             } catch (Exception e) {
+                // Expected: validation may fail for some test data
             }
         }
 
