@@ -31,17 +31,17 @@ class DataProcessingTest {
         courseRepo = new CourseRepository();
         instructorRepo = new InstructorRepository();
 
-        studentRepo.add(new Student("John", "Doe", "john.doe@chnu.edu.ua", LocalDate.of(2023, 1, 1)));
-        studentRepo.add(new Student("Jane", "Smith", "jane.smith@student.ua", LocalDate.of(2023, 2, 1)));
-        studentRepo.add(new Student("Bob", "Johnson", "bob.johnson@chnu.edu.ua", LocalDate.of(2023, 3, 1)));
+        studentRepo.add(new Student("Lesia", "Melnyk", "lesia.melnyk@chnu.edu.ua", LocalDate.of(2023, 1, 1)));
+        studentRepo.add(new Student("Liliya", "Fivko", "liliya.fivko@student.ua", LocalDate.of(2023, 2, 1)));
+        studentRepo.add(new Student("Ivan", "Bondaryk", "ivan.bondaryk@chnu.edu.ua", LocalDate.of(2023, 3, 1)));
 
         courseRepo.add(new Course("Java Basics", "Introduction to Java", 5, LocalDate.now().plusMonths(1)));
         courseRepo.add(new Course("Python Intro", "Learn Python basics", 3, LocalDate.now().plusMonths(2)));
         courseRepo.add(new Course("Web Development", "HTML CSS JavaScript", 4, LocalDate.now().plusMonths(3)));
 
-        instructorRepo.add(new Instructor("Alex", "Brown", 15));
-        instructorRepo.add(new Instructor("Sarah", "Wilson", 25));
-        instructorRepo.add(new Instructor("Mike", "Davis", 10));
+        instructorRepo.add(new Instructor("Igor", "Bylat", 15));
+        instructorRepo.add(new Instructor("Denys", "Malyk", 25));
+        instructorRepo.add(new Instructor("Inessa", "Kir", 10));
     }
 
     @Test

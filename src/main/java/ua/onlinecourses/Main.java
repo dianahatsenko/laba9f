@@ -31,31 +31,29 @@ public class Main {
             AppConfig config = new AppConfig();
             PersistenceManager manager = new PersistenceManager(config);
 
-            logger.log(Level.INFO, "=== PARALLEL DATA LOADING AND PROCESSING DEMONSTRATION ===");
-            logger.log(Level.INFO, "");
 
             StudentRepository studentRepo = new StudentRepository();
             CourseRepository courseRepo = new CourseRepository();
             InstructorRepository instructorRepo = new InstructorRepository();
             ModuleRepository moduleRepo = new ModuleRepository();
 
-            logger.log(Level.INFO, "=== PART 1: Parallel Data Loading from CSV Files ===");
+            logger.log(Level.INFO, "Parallel Data Loading from CSV Files");
             demonstrateParallelLoading(studentRepo, courseRepo, instructorRepo, moduleRepo);
 
             logger.log(Level.INFO, "");
-            logger.log(Level.INFO, "=== PART 2: Data Processing with ExecutorService ===");
+            logger.log(Level.INFO, "Data Processing with ExecutorService");
             demonstrateExecutorServiceProcessing(studentRepo, courseRepo, instructorRepo);
 
             logger.log(Level.INFO, "");
-            logger.log(Level.INFO, "=== PART 3: Async Processing with CompletableFuture ===");
+            logger.log(Level.INFO, " Async Processing with CompletableFuture");
             demonstrateCompletableFutureProcessing(studentRepo, courseRepo, instructorRepo);
 
             logger.log(Level.INFO, "");
-            logger.log(Level.INFO, "=== PART 4: Comparison of Processing Approaches ===");
+            logger.log(Level.INFO, "Comparison of Processing Approaches");
             demonstrateProcessingComparison(courseRepo);
 
             logger.log(Level.INFO, "");
-            logger.log(Level.INFO, "=== PART 5: Manual Repository Operations with Validation ===");
+            logger.log(Level.INFO, "Manual Repository Operations with Validation");
             demonstrateRepositoryWithValidation(config, manager);
 
         } catch (Exception e) {
