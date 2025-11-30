@@ -6,8 +6,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class GenericRepository<T> {
     private static final Logger logger = Logger.getLogger(GenericRepository.class.getName());
@@ -18,13 +20,13 @@ public class GenericRepository<T> {
     private final String entityType;
 
     public GenericRepository(IdentityExtractor<T> identityExtractor, String entityType) {
-        this.items = new ArrayList<>();
+        this.items = new CopyOnWriteArrayList<>();
         this.identityExtractor = identityExtractor;
         this.entityType = entityType;
         logger.log(Level.INFO,"Created repository for {0}", entityType);
     }
 
-    public boolean add(T item) {
+    public synchronized boolean add(T item) {
         if (item == null) {
             logger.log(Level.WARNING, "Attempted to add null {0}", entityType);
             return false;
