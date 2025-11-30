@@ -81,19 +81,19 @@
 <tr>
 <td class="success">serialize and deserialize should preserve data integrity</td>
 <td class="success">testDataIntegrity()</td>
-<td class="success">0.015s</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deserialize should load courses from YAML file</td>
 <td class="success">testDeserialize()</td>
-<td class="success">0.015s</td>
+<td class="success">0.021s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">deserialize from non-existent file should return empty list</td>
 <td class="success">testDeserializeNonExistentFile()</td>
-<td class="success">0.003s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -105,19 +105,19 @@
 <tr>
 <td class="success">serialize should save courses to YAML file</td>
 <td class="success">testSerialize()</td>
-<td class="success">0.007s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">serialize empty list should create empty YAML array</td>
 <td class="success">testSerializeEmptyList()</td>
-<td class="success">0.011s</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">serialize null list should throw exception</td>
 <td class="success">testSerializeNullList()</td>
-<td class="success">0.003s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -125,173 +125,173 @@
 <div class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+<pre>Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
 WARNING: File does not exist: ./nonexistent.yaml. Returning empty list.
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
-INFO: Created directory: C:\Users\dinag\IdeaProjects\onlinecourses\.\test_data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
+INFO: Created directory: /home/runner/work/laba9f/laba9f/./test_data
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
 INFO: Successfully serialized 0 items to YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
 INFO: Successfully deserialized 0 items from YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
-INFO: Created directory: C:\Users\dinag\IdeaProjects\onlinecourses\.\test_data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
+INFO: Created directory: /home/runner/work/laba9f/laba9f/./test_data
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
 INFO: Successfully serialized 2 items to YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
-INFO: Created directory: C:\Users\dinag\IdeaProjects\onlinecourses\.\test_data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
+INFO: Created directory: /home/runner/work/laba9f/laba9f/./test_data
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
 INFO: Successfully serialized 2 items to YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
 INFO: Successfully deserialized 2 items from YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
-INFO: Created directory: C:\Users\dinag\IdeaProjects\onlinecourses\.\test_data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer createParentDirectories
+INFO: Created directory: /home/runner/work/laba9f/laba9f/./test_data
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer serialize
 INFO: Successfully serialized 2 items to YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.serializer.AbstractDataSerializer deserialize
 INFO: Successfully deserialized 2 items from YAML file: ./test_data/courses_test.yaml
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Java, Programming, 5, 2025-01-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Attempting to create Course: Python, Scripting, 4, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course &lt;init&gt;
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course &lt;init&gt;
 INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
 </pre>
 </span>
@@ -304,7 +304,7 @@ INFO: Course created successfully: Python, Scripting, 4, 2025-02-01
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.14</a> at 29 нояб. 2025 г., 21:15:11</p>
+<a href="https://www.gradle.org">Gradle 8.14</a> at Nov 30, 2025, 2:15:05 PM</p>
 </div>
 </div>
 </body>

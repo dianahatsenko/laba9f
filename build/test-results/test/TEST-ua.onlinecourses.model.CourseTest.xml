@@ -1,315 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ua.onlinecourses.model.CourseTest" tests="27" skipped="0" failures="2" errors="0" timestamp="2025-11-29T19:15:08.753Z" hostname="DIANACOMP" time="0.289">
+<testsuite name="ua.onlinecourses.model.CourseTest" tests="27" skipped="0" failures="2" errors="0" timestamp="2025-11-30T14:15:03.166Z" hostname="runnervmg1sw1" time="0.199">
   <properties/>
-  <testcase name="[1] Java Programming, Learn Java basics and OOP, 3, 2025-06-01" classname="ua.onlinecourses.model.CourseTest" time="0.026"/>
-  <testcase name="[2] Data Structures, Advanced algorithms and data structures, 4, 2025-03-15" classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
+  <testcase name="[1] Java Programming, Learn Java basics and OOP, 3, 2025-06-01" classname="ua.onlinecourses.model.CourseTest" time="0.034"/>
+  <testcase name="[2] Data Structures, Advanced algorithms and data structures, 4, 2025-03-15" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
   <testcase name="[3] Python, Introduction to Python, 2, 2025-09-20" classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="[1] Java Programming, Learn Java basics, 3, 2025-06-01, JAV-LEA-32025-06-01" classname="ua.onlinecourses.model.CourseTest" time="0.012"/>
-  <testcase name="[2] Data Structures, Advanced algorithms, 4, 2025-03-15, DAT-ADV-42025-03-15" classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="[3] Python, Introduction, 2, 2025-09-20, PYT-INT-22025-09-20" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
-  <testcase name="[1] Java Programming,Learn Java basics,3,2025-06-01&#10;Python,Introduction to Python,2,2025-03-15, 2, Java Programming, Learn Java basics" classname="ua.onlinecourses.model.CourseTest" time="0.018"/>
-  <testcase name="[2] Data Structures,Advanced algorithms,4,2025-03-15, 1, Data Structures, Advanced algorithms" classname="ua.onlinecourses.model.CourseTest" time="0.01"/>
-  <testcase name="[3] # Comment&#10;Algorithms,Study of algorithms,5,2025-05-10&#10;&#10;Databases,Database management,3,2025-02-01, 2, Algorithms, Study of algorithms" classname="ua.onlinecourses.model.CourseTest" time="0.014"/>
-  <testcase name="[4] , 0, null, null" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
-  <testcase name="testGetFullNameThrowsExceptionForShortTitle()" classname="ua.onlinecourses.model.CourseTest" time="0.017">
+  <testcase name="[1] Java Programming, Learn Java basics, 3, 2025-06-01, JAV-LEA-32025-06-01" classname="ua.onlinecourses.model.CourseTest" time="0.009"/>
+  <testcase name="[2] Data Structures, Advanced algorithms, 4, 2025-03-15, DAT-ADV-42025-03-15" classname="ua.onlinecourses.model.CourseTest" time="0.003"/>
+  <testcase name="[3] Python, Introduction, 2, 2025-09-20, PYT-INT-22025-09-20" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
+  <testcase name="[1] Java Programming,Learn Java basics,3,2025-06-01&#10;Python,Introduction to Python,2,2025-03-15, 2, Java Programming, Learn Java basics" classname="ua.onlinecourses.model.CourseTest" time="0.009"/>
+  <testcase name="[2] Data Structures,Advanced algorithms,4,2025-03-15, 1, Data Structures, Advanced algorithms" classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
+  <testcase name="[3] # Comment&#10;Algorithms,Study of algorithms,5,2025-05-10&#10;&#10;Databases,Database management,3,2025-02-01, 2, Algorithms, Study of algorithms" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
+  <testcase name="[4] , 0, null, null" classname="ua.onlinecourses.model.CourseTest" time="0.002"/>
+  <testcase name="testGetFullNameThrowsExceptionForShortTitle()" classname="ua.onlinecourses.model.CourseTest" time="0.007">
     <failure message="ua.onlinecourses.exception.InvalidDataException: title: invalid value 'CS' — must be between 3 and 100 characters" type="ua.onlinecourses.exception.InvalidDataException">ua.onlinecourses.exception.InvalidDataException: title: invalid value 'CS' — must be between 3 and 100 characters
 	at app//ua.onlinecourses.util.ValidationUtils.validate(ValidationUtils.java:36)
 	at app//ua.onlinecourses.model.Course.&lt;init&gt;(Course.java:55)
 	at app//ua.onlinecourses.model.CourseTest.testGetFullNameThrowsExceptionForShortTitle(CourseTest.java:112)
-	at java.base@24/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@17.0.17/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base@17.0.17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.17/java.util.ArrayList.forEach(ArrayList.java:1511)
 </failure>
   </testcase>
-  <testcase name="testInvalidStartDateTooFar()" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
-  <testcase name="testInvalidStartDateTooOld()" classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
-  <testcase name="[1] 0" classname="ua.onlinecourses.model.CourseTest" time="0.007"/>
-  <testcase name="[2] -1" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
-  <testcase name="[3] 6" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
-  <testcase name="[4] 10" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
-  <testcase name="[1] " classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="[2]    " classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="testGetFullNameThrowsExceptionForShortDescription()" classname="ua.onlinecourses.model.CourseTest" time="0.008">
+  <testcase name="testInvalidStartDateTooFar()" classname="ua.onlinecourses.model.CourseTest" time="0.002"/>
+  <testcase name="testInvalidStartDateTooOld()" classname="ua.onlinecourses.model.CourseTest" time="0.002"/>
+  <testcase name="[1] 0" classname="ua.onlinecourses.model.CourseTest" time="0.003"/>
+  <testcase name="[2] -1" classname="ua.onlinecourses.model.CourseTest" time="0.002"/>
+  <testcase name="[3] 6" classname="ua.onlinecourses.model.CourseTest" time="0.002"/>
+  <testcase name="[4] 10" classname="ua.onlinecourses.model.CourseTest" time="0.001"/>
+  <testcase name="[1] " classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
+  <testcase name="[2]    " classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
+  <testcase name="testGetFullNameThrowsExceptionForShortDescription()" classname="ua.onlinecourses.model.CourseTest" time="0.005">
     <failure message="ua.onlinecourses.exception.InvalidDataException: description: invalid value 'CS' — must be between 3 and 500 characters" type="ua.onlinecourses.exception.InvalidDataException">ua.onlinecourses.exception.InvalidDataException: description: invalid value 'CS' — must be between 3 and 500 characters
 	at app//ua.onlinecourses.util.ValidationUtils.validate(ValidationUtils.java:36)
 	at app//ua.onlinecourses.model.Course.&lt;init&gt;(Course.java:55)
 	at app//ua.onlinecourses.model.CourseTest.testGetFullNameThrowsExceptionForShortDescription(CourseTest.java:121)
-	at java.base@24/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at java.base@24/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base@17.0.17/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base@17.0.17/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base@17.0.17/java.util.ArrayList.forEach(ArrayList.java:1511)
 </failure>
   </testcase>
   <testcase name="testFileNotFound()" classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
-  <testcase name="[1] " classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="[2]    " classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
-  <testcase name="[3] Economics for computer science students analytics and learners of applied math and data structure First level include Math basics and risks So it will be great for future IT workers or programing workers" classname="ua.onlinecourses.model.CourseTest" time="0.006"/>
-  <testcase name="[1] Java Programming,Learn Java,3,2025-06-01&#10;Invalid Line&#10;Python,Intro,2,2025-03-15, 2" classname="ua.onlinecourses.model.CourseTest" time="0.013"/>
-  <testcase name="[2] Java,Description,10,2025-06-01&#10;Python,Intro,2,2025-03-15, 1" classname="ua.onlinecourses.model.CourseTest" time="0.011"/>
-  <testcase name="[3] Java,Description,3,2025-06-01&#10;Python,Intro,2,2025-03-15, 2" classname="ua.onlinecourses.model.CourseTest" time="0.011"/>
+  <testcase name="[1] " classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
+  <testcase name="[2]    " classname="ua.onlinecourses.model.CourseTest" time="0.004"/>
+  <testcase name="[3] Economics for computer science students analytics and learners of applied math and data structure First level include Math basics and risks So it will be great for future IT workers or programing workers" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
+  <testcase name="[1] Java Programming,Learn Java,3,2025-06-01&#10;Invalid Line&#10;Python,Intro,2,2025-03-15, 2" classname="ua.onlinecourses.model.CourseTest" time="0.022"/>
+  <testcase name="[2] Java,Description,10,2025-06-01&#10;Python,Intro,2,2025-03-15, 1" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
+  <testcase name="[3] Java,Description,3,2025-06-01&#10;Python,Intro,2,2025-03-15, 2" classname="ua.onlinecourses.model.CourseTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+  <system-err><![CDATA[Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Learn Java basics and OOP, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Learn Java basics and OOP, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms and data structures, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms and data structures, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Introduction to Python, 2, 2025-09-20
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Introduction to Python, 2, 2025-09-20
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Learn Java basics, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Learn Java basics, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Introduction, 2, 2025-09-20
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Introduction, 2, 2025-09-20
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit17914462442103638666\courses.csv
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit2814929940394607664/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Learn Java basics, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Learn Java basics, 3, 2025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 1: JAV-LEA-32025-06-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Introduction to Python, 2, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Introduction to Python, 2, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 2: PYT-INT-22025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 2 courses from file
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit838322709176208269\courses.csv
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit12731196927194040866/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 4, 2025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 1: DAT-ADV-42025-03-15
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 1 courses from file
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit7347170757036227359\courses.csv
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit15207541797412213392/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Algorithms, Study of algorithms, 5, 2025-05-10
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Algorithms, Study of algorithms, 5, 2025-05-10
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 2: ALG-STU-52025-05-10
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Databases, Database management, 3, 2025-02-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Databases, Database management, 3, 2025-02-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 4: DAT-DAT-32025-02-01
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 2 courses from file
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit7139838776764800256\courses.csv
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit17145823343905332967/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 0 courses from file
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: CS, Computer Science basics, 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: CS, Computer Science basics, 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: title: invalid value 'CS' — must be between 3 and 100 characters
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: PI, Physical education, 3, 2027-11-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: PI, Physical education, 3, 2027-11-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: title: invalid value 'PI' — must be between 3 and 100 characters; startDate: invalid value '2027-11-29' — must be within 1 year from today
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Valid Title, Valid description, 3, 2023-11-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: title: invalid value 'PI' — must be between 3 and 100 characters; startDate: invalid value '2027-11-30' — must be within 1 year from today
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Valid Title, Valid description, 3, 2023-11-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: startDate: invalid value '2023-11-29' — must be within 1 year from today
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Statistics, Intro to statistics and math, 0, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: startDate: invalid value '2023-11-30' — must be within 1 year from today
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Statistics, Intro to statistics and math, 0, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '0' — must be at least 1
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Statistics, Intro to statistics and math, -1, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Statistics, Intro to statistics and math, -1, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '-1' — must be at least 1
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Statistics, Intro to statistics and math, 6, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Statistics, Intro to statistics and math, 6, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '6' — must be at most 5
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Statistics, Intro to statistics and math, 10, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Statistics, Intro to statistics and math, 10, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '10' — must be at most 5
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Graphs programming, , 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Graphs programming, , 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: description: invalid value '' — must be between 3 and 500 characters; description: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Graphs programming,    , 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: description: invalid value '' — cannot be empty; description: invalid value '' — must be between 3 and 500 characters
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Graphs programming,    , 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: description: invalid value '   ' — cannot be empty
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Computer Science, CS, 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Computer Science, CS, 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: description: invalid value 'CS' — must be between 3 and 500 characters
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: , Economics for computer science, 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: , Economics for computer science, 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: title: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 100 characters
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course:    , Economics for computer science, 3, 2025-12-29
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course:    , Economics for computer science, 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:08 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: title: invalid value '   ' — cannot be empty
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Economics for computer science students analytics and learners of applied math and data structure First level include Math basics and risks So it will be great for future IT workers or programing workers, Economics for computer science, 3, 2025-12-29
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Economics for computer science students analytics and learners of applied math and data structure First level include Math basics and risks So it will be great for future IT workers or programing workers, Economics for computer science, 3, 2025-12-30
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: title: invalid value 'Economics for computer science students analytics and learners of applied math and data structure First level include Math basics and risks So it will be great for future IT workers or programing workers' — must be between 3 and 100 characters
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit12702918145088746530\courses.csv
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit9554876710857137501/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Learn Java, 3, 2025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Learn Java, 3, 2025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 1: JAV-LEA-32025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 WARNING: Failed to parse line 2: Line 2: Expected format 'title, description, credits, startDate', got: Invalid Line
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 3: PYT-INT-22025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 2 courses from file
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit11951219820539111868\courses.csv
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit5372095013953001260/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java, Description, 10, 2025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '10' — must be at most 5
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 WARNING: Failed to parse line 1: Line 1: credits: invalid value '10' — must be at most 5
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 2: PYT-INT-22025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 1 courses from file
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
-INFO: Starting to parse courses from file: C:\Users\dinag\AppData\Local\Temp\junit3724478347562592681\courses.csv
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+INFO: Starting to parse courses from file: /tmp/junit18214689009487391977/courses.csv
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java, Description, 3, 2025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java, Description, 3, 2025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 1: JAV-DES-32025-06-01
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Python, Intro, 2, 2025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Parsed course from line 2: PYT-INT-22025-03-15
-нояб. 29, 2025 9:15:09 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
+Nov 30, 2025 2:15:03 PM ua.onlinecourses.parser.CourseFileParser parseFromCSV
 INFO: Successfully parsed 2 courses from file
 ]]></system-err>
 </testsuite>

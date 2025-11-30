@@ -1,699 +1,699 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CourseRepository Sorting Tests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-29T19:15:10.276Z" hostname="DIANACOMP" time="0.041">
+<testsuite name="CourseRepository Sorting Tests" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-11-30T14:15:04.179Z" hostname="runnervmg1sw1" time="0.049">
   <properties/>
-  <testcase name="sortByIdentity should sort by fullName" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.005"/>
+  <testcase name="sortByIdentity should sort by fullName" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.009"/>
   <testcase name="sortByStartDate should sort courses by start date" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
-  <testcase name="Sorting empty repository should return empty list" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.002"/>
-  <testcase name="sortByCredits should sort courses by credits ascending" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.004"/>
-  <testcase name="sortByDescription should sort courses by description using lambda" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.004"/>
-  <testcase name="Sorting should not modify the original repository" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.005"/>
-  <testcase name="sortByTitle should sort courses by title" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.006"/>
-  <testcase name="sortByCreditsDesc should sort courses by credits descending" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.004"/>
-  <testcase name="sortByCreditsAndDate should sort by credits desc, then by date" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
+  <testcase name="Sorting empty repository should return empty list" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
+  <testcase name="sortByCredits should sort courses by credits ascending" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
+  <testcase name="sortByDescription should sort courses by description using lambda" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.005"/>
+  <testcase name="Sorting should not modify the original repository" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.004"/>
+  <testcase name="sortByTitle should sort courses by title" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
+  <testcase name="sortByCreditsDesc should sort courses by credits descending" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.003"/>
+  <testcase name="sortByCreditsAndDate should sort by credits desc, then by date" classname="ua.onlinecourses.repository.CourseRepositorySortingTest" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+  <system-err><![CDATA[Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByIdentity
 INFO: Testing sortByIdentity
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository sortByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository sortByIdentity
 INFO: Sorted Course items by identity in asc order
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository sortByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository sortByIdentity
 INFO: Sorted Course items by identity in desc order
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByIdentity
 INFO: sortByIdentity test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByStartDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByStartDate
 INFO: Testing sortByStartDate
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByStartDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByStartDate
 INFO: Sorted Course by start date
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByStartDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByStartDate
 INFO: sortByStartDate test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingEmptyRepository
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingEmptyRepository
 INFO: Testing sorting on empty repository
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 0
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByTitle
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByTitle
 INFO: Sorted Course by title
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 0
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByCredits
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByCredits
 INFO: Sorted Course by credits
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 0
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByStartDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByStartDate
 INFO: Sorted Course by start date
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingEmptyRepository
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingEmptyRepository
 INFO: Empty repository sorting test completed
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCredits
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCredits
 INFO: Testing sortByCredits
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByCredits
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByCredits
 INFO: Sorted Course by credits
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCredits
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCredits
 INFO: sortByCredits test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByDescription
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByDescription
 INFO: Testing sortByDescription
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByDescription
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByDescription
 INFO: Sorted Course by description using lambda
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByDescription
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByDescription
 INFO: sortByDescription test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingDoesNotModifyRepository
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingDoesNotModifyRepository
 INFO: Testing that sorting does not modify repository
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByTitle
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByTitle
 INFO: Sorted Course by title
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByCredits
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByCredits
 INFO: Sorted Course by credits
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingDoesNotModifyRepository
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortingDoesNotModifyRepository
 INFO: Repository immutability test completed
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByTitle
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByTitle
 INFO: Testing sortByTitle
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByTitle
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByTitle
 INFO: Sorted Course by title
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByTitle
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByTitle
 INFO: sortByTitle test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsDesc
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsDesc
 INFO: Testing sortByCreditsDesc
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByCreditsDesc
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByCreditsDesc
 INFO: Sorted Course by credits (descending)
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsDesc
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsDesc
 INFO: sortByCreditsDesc test completed successfully
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Setting up test data
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository <init>
 INFO: Created repository for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Java Programming, Introduction to Java, 5, 2025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Data Structures, Advanced algorithms, 3, 2025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Web Development, HTML, CSS, JavaScript, 4, 2025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Database Systems, SQL and NoSQL, 5, 2025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Course created successfully: Machine Learning, AI fundamentals, 2, 2025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: JAV-INT-52025-01-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-ADV-32025-02-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: WEB-HTM-42025-01-20
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: DAT-SQL-52025-03-01
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository findByIdentity
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository findByIdentity
 INFO: No Course found with identity: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository add
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository add
 INFO: Added Course: MAC-AI -22025-02-15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest setUp
 INFO: Test setup completed with 5 courses
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsAndDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsAndDate
 INFO: Testing sortByCreditsAndDate
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.GenericRepository getAll
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.GenericRepository getAll
 INFO: Retrieved all Course items. Count: 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepository sortByCreditsAndDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepository sortByCreditsAndDate
 INFO: Sorted Course by credits (desc) and start date
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsAndDate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.repository.CourseRepositorySortingTest testSortByCreditsAndDate
 INFO: sortByCreditsAndDate test completed successfully
 ]]></system-err>
 </testsuite>

@@ -1,313 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Validation Tests" tests="39" skipped="0" failures="0" errors="0" timestamp="2025-11-29T19:15:10.786Z" hostname="DIANACOMP" time="0.074">
+<testsuite name="Validation Tests" tests="39" skipped="0" failures="0" errors="0" timestamp="2025-11-30T14:15:04.917Z" hostname="runnervmg1sw1" time="0.079">
   <properties/>
-  <testcase name="Valid course creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
-  <testcase name="Invalid module should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
-  <testcase name="[1] , Content" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
+  <testcase name="Valid course creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
+  <testcase name="Invalid module should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[1] , Content" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
   <testcase name="[2] Title, " classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[3]   , Content" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[4] Title,    " classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[5] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Content" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[6] Title, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA…" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[1] , Fivko, artem.fivko@chnu.edu.ua, 2025-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.005"/>
-  <testcase name="[2] Artem, , artem.fivko@chnu.edu.ua, 2025-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[3] Artem, Fivko, invalid-email, 2025-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[4] Artem, Fivko, artem.fivko@chnu.edu.ua, 2015-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[5] Artem, Fivko, artem.fivko@chnu.edu.ua, 2027-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[6]   , Fivko, artem.fivko@chnu.edu.ua, 2025-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[7] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Fivko, artem.fivko@chnu.edu.ua, 2025-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="Assignment with null dueDate should fail validation" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[3]   , Content" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
+  <testcase name="[4] Title,    " classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
+  <testcase name="[5] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Content" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[6] Title, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA…" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
+  <testcase name="[1] , Fivko, artem.fivko@chnu.edu.ua, 2025-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
+  <testcase name="[2] Artem, , artem.fivko@chnu.edu.ua, 2025-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[3] Artem, Fivko, invalid-email, 2025-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[4] Artem, Fivko, artem.fivko@chnu.edu.ua, 2015-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
+  <testcase name="[5] Artem, Fivko, artem.fivko@chnu.edu.ua, 2027-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[6]   , Fivko, artem.fivko@chnu.edu.ua, 2025-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[7] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Fivko, artem.fivko@chnu.edu.ua, 2025-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="Assignment with null dueDate should fail validation" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
   <testcase name="Student with null email should fail validation" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="Invalid instructor should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="Invalid instructor should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.003"/>
   <testcase name="Valid module creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="Invalid course should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
-  <testcase name="Valid instructor creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
-  <testcase name="Invalid student should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="Invalid assignment should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="Invalid course should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="Valid instructor creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
+  <testcase name="Invalid student should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="Invalid assignment should throw InvalidDataException with all error messages" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
   <testcase name="Valid assignment creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[1] , Description, 3, 2025-12-29" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
-  <testcase name="[2] Title, , 3, 2025-12-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[3] Title, Description, 0, 2025-12-29" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[4] Title, Description, 6, 2025-12-29" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[5] Title, Description, 3, 2023-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
-  <testcase name="[6] Title, Description, 3, 2027-11-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[7] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Description, 3, 2025-12-29" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="Valid student creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[1] , Description, 3, 2025-12-30" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
+  <testcase name="[2] Title, , 3, 2025-12-30" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="[3] Title, Description, 0, 2025-12-30" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="[4] Title, Description, 6, 2025-12-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[5] Title, Description, 3, 2023-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="[6] Title, Description, 3, 2027-11-30" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[7] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Description, 3, 2025-12-30" classname="ua.onlinecourses.util.ValidationTest" time="0.002"/>
+  <testcase name="Valid student creation should succeed" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
   <testcase name="Course with null startDate should fail validation" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[1] , Moroz, 15" classname="ua.onlinecourses.util.ValidationTest" time="0.004"/>
-  <testcase name="[2] Nataliia, , 15" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[3] Nataliia, Moroz, 0" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="[1] , Moroz, 15" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[2] Nataliia, , 15" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
+  <testcase name="[3] Nataliia, Moroz, 0" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
   <testcase name="[4] Nataliia, Moroz, 61" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
   <testcase name="[5] Nataliia, Moroz, -5" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
-  <testcase name="[6] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Moroz, 15" classname="ua.onlinecourses.util.ValidationTest" time="0.001"/>
+  <testcase name="[6] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Moroz, 15" classname="ua.onlinecourses.util.ValidationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Java Programming, Learn Java basics, 5, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+  <system-err><![CDATA[Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Java Programming, Learn Java basics, 5, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Course created successfully: Java Programming, Learn Java basics, 5, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Course created successfully: Java Programming, Learn Java basics, 5, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: , 
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for myModule: title: invalid value '' — cannot be empty; content: invalid value '' — cannot be empty; content: invalid value '' — must be between 3 and 2000 characters; title: invalid value '' — must be between 3 and 30 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: content: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 30 characters; content: invalid value '' — must be between 3 and 2000 characters; title: invalid value '' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: , Content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for myModule: title: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 30 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value '' — must be between 3 and 30 characters; title: invalid value '' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Title, 
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for myModule: content: invalid value '' — must be between 3 and 2000 characters; content: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module:   , Content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for myModule: title: invalid value '  ' — cannot be empty; title: invalid value '  ' — must be between 3 and 30 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for myModule: title: invalid value '  ' — must be between 3 and 30 characters; title: invalid value '  ' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Title,    
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for myModule: content: invalid value '   ' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for myModule: title: invalid value 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' — must be between 3 and 30 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Title, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for myModule: content: invalid value 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' — must be between 3 and 2000 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: , Fivko, artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: , Fivko, artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: firstName: invalid value '' — must be between 3 and 50 characters; firstName: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, , artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: firstName: invalid value '' — cannot be empty; firstName: invalid value '' — must be between 3 and 50 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, , artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: lastName: invalid value '' — must be between 3 and 50 characters; lastName: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, Fivko, invalid-email, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: lastName: invalid value '' — cannot be empty; lastName: invalid value '' — must be between 3 and 50 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, Fivko, invalid-email, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Student: email: invalid value 'invalid-email' — must be a valid email address
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2015-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2015-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: enrollmentDate: invalid value '2015-11-29' — must be within 5 years from today and not in future year
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2027-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: enrollmentDate: invalid value '2015-11-30' — must be within 5 years from today and not in future year
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2027-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: enrollmentDate: invalid value '2027-11-29' — must be within 5 years from today and not in future year
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student:   , Fivko, artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: enrollmentDate: invalid value '2027-11-30' — must be within 5 years from today and not in future year
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student:   , Fivko, artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: firstName: invalid value '  ' — must be between 3 and 50 characters; firstName: invalid value '  ' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Fivko, artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: firstName: invalid value '  ' — cannot be empty; firstName: invalid value '  ' — must be between 3 and 50 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Fivko, artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Student: firstName: invalid value 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' — must be between 3 and 50 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Test, Content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Module created successfully: Test, Content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Assignment <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Assignment <init>
 INFO: Attempting to create Assignment: myModule[title=Test, content=Content], null, 50, GOOD
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Assignment
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Assignment: dueDate: invalid value 'null' — cannot be null; dueDate: invalid value 'null' — must be within 1 year from today
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, Fivko, null, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Assignment: dueDate: invalid value 'null' — must be within 1 year from today; dueDate: invalid value 'null' — cannot be null
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, Fivko, null, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Student: email: invalid value 'null' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: , , 0
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Instructor: lastName: invalid value '' — must be between 3 and 50 characters; lastName: invalid value '' — cannot be empty; firstName: invalid value '' — must be between 3 and 50 characters; expertise: invalid value '0' — must be at least 1; firstName: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Instructor: firstName: invalid value '' — cannot be empty; lastName: invalid value '' — must be between 3 and 50 characters; firstName: invalid value '' — must be between 3 and 50 characters; expertise: invalid value '0' — must be at least 1; lastName: invalid value '' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Introduction, Basic concepts
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Module created successfully: Introduction, Basic concepts
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: , , 0, 2027-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: , , 0, 2027-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: title: invalid value '' — must be between 3 and 100 characters; credits: invalid value '0' — must be at least 1; description: invalid value '' — cannot be empty; startDate: invalid value '2027-11-29' — must be within 1 year from today; title: invalid value '' — cannot be empty; description: invalid value '' — must be between 3 and 500 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: credits: invalid value '0' — must be at least 1; title: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 100 characters; startDate: invalid value '2027-11-30' — must be within 1 year from today; description: invalid value '' — cannot be empty; description: invalid value '' — must be between 3 and 500 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: Nataliia, Moroz, 30
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Instructor created successfully: Nataliia, Moroz, 30
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: , , invalid-email, 2015-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: , , invalid-email, 2015-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Student: firstName: invalid value '' — must be between 3 and 50 characters; email: invalid value 'invalid-email' — must be a valid email address; firstName: invalid value '' — cannot be empty; lastName: invalid value '' — must be between 3 and 50 characters; enrollmentDate: invalid value '2015-11-29' — must be within 5 years from today and not in future year; lastName: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Student: firstName: invalid value '' — cannot be empty; enrollmentDate: invalid value '2015-11-30' — must be within 5 years from today and not in future year; lastName: invalid value '' — cannot be empty; firstName: invalid value '' — must be between 3 and 50 characters; email: invalid value 'invalid-email' — must be a valid email address; lastName: invalid value '' — must be between 3 and 50 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Test Module, Test content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Module created successfully: Test Module, Test content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Assignment <init>
-INFO: Attempting to create Assignment: myModule[title=Test Module, content=Test content], 2027-11-29, 0, EXCELLENT
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Assignment <init>
+INFO: Attempting to create Assignment: myModule[title=Test Module, content=Test content], 2027-11-30, 0, EXCELLENT
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Assignment
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Assignment: dueDate: invalid value '2027-11-29' — must be within 1 year from today; maxPoints: invalid value '0' — must be at least 1
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Assignment: dueDate: invalid value '2027-11-30' — must be within 1 year from today; maxPoints: invalid value '0' — must be at least 1
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Attempting to create Module: Test Module, Test content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for myModule
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.myModule <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.myModule <init>
 INFO: Module created successfully: Test Module, Test content
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Assignment <init>
-INFO: Attempting to create Assignment: myModule[title=Test Module, content=Test content], 2025-12-06, 100, EXCELLENT
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Assignment <init>
+INFO: Attempting to create Assignment: myModule[title=Test Module, content=Test content], 2025-12-07, 100, EXCELLENT
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Assignment
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Assignment
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Assignment <init>
-INFO: Assignment created successfully: myModule[title=Test Module, content=Test content], 2025-12-06, 100, EXCELLENT
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: , Description, 3, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Assignment <init>
+INFO: Assignment created successfully: myModule[title=Test Module, content=Test content], 2025-12-07, 100, EXCELLENT
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: , Description, 3, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: title: invalid value '' — cannot be empty; title: invalid value '' — must be between 3 and 100 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Title, , 3, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: title: invalid value '' — must be between 3 and 100 characters; title: invalid value '' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Title, , 3, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: description: invalid value '' — must be between 3 and 500 characters; description: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Title, Description, 0, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: description: invalid value '' — cannot be empty; description: invalid value '' — must be between 3 and 500 characters
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Title, Description, 0, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '0' — must be at least 1
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Title, Description, 6, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Title, Description, 6, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: credits: invalid value '6' — must be at most 5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Title, Description, 3, 2023-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Title, Description, 3, 2023-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: startDate: invalid value '2023-11-29' — must be within 1 year from today
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: Title, Description, 3, 2027-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: startDate: invalid value '2023-11-30' — must be within 1 year from today
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: Title, Description, 3, 2027-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: startDate: invalid value '2027-11-29' — must be within 1 year from today
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
-INFO: Attempting to create Course: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Description, 3, 2025-12-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: startDate: invalid value '2027-11-30' — must be within 1 year from today
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
+INFO: Attempting to create Course: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Description, 3, 2025-12-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Course: title: invalid value 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' — must be between 3 and 100 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Attempting to create Student: Artem, Fivko, artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Validation successful for Student
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Student <init>
-INFO: Student created successfully: Artem, Fivko, artem.fivko@chnu.edu.ua, 2025-11-29
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Course <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Student <init>
+INFO: Student created successfully: Artem, Fivko, artem.fivko@chnu.edu.ua, 2025-11-30
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Course <init>
 INFO: Attempting to create Course: Title, Description, 3, null
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Course
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Course: startDate: invalid value 'null' — cannot be null; startDate: invalid value 'null' — must be within 1 year from today
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Course: startDate: invalid value 'null' — must be within 1 year from today; startDate: invalid value 'null' — cannot be null
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: , Moroz, 15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
-WARNING: Validation failed for Instructor: firstName: invalid value '' — cannot be empty; firstName: invalid value '' — must be between 3 and 50 characters
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
+WARNING: Validation failed for Instructor: firstName: invalid value '' — must be between 3 and 50 characters; firstName: invalid value '' — cannot be empty
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: Nataliia, , 15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Instructor: lastName: invalid value '' — must be between 3 and 50 characters; lastName: invalid value '' — cannot be empty
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: Nataliia, Moroz, 0
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Instructor: expertise: invalid value '0' — must be at least 1
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: Nataliia, Moroz, 61
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Instructor: expertise: invalid value '61' — must be at most 60
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: Nataliia, Moroz, -5
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Instructor: expertise: invalid value '-5' — must be at least 1
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.model.Instructor <init>
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.model.Instructor <init>
 INFO: Attempting to create Instructor: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA, Moroz, 15
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 INFO: Attempting to validate object: Instructor
-нояб. 29, 2025 9:15:10 PM ua.onlinecourses.util.ValidationUtils validate
+Nov 30, 2025 2:15:04 PM ua.onlinecourses.util.ValidationUtils validate
 WARNING: Validation failed for Instructor: firstName: invalid value 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA' — must be between 3 and 50 characters
 ]]></system-err>
 </testsuite>
